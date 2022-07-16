@@ -64,7 +64,7 @@ export default {
     },
 
     getScrollY(){
-     return this.scroll ? this.scroll.y : 0
+      return this.scroll ? this.scroll.y : 0;
     }
   }
 }
