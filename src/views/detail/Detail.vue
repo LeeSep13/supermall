@@ -185,6 +185,6 @@ export default {
 
   .content{
     background-color: #fff;
-    height: calc(100% - 44px - 49px);
+    height: calc(100% - 44px - 55px);
   }
 </style>

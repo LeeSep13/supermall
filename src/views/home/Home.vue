@@ -52,11 +52,10 @@
           'new': {page: 0, list: []},
           'sell': {page: 0, list: []},
         },
-        currentType:'pop',
         tabOffsetTop:0,
         isTabFixed:false,
         saveY:0,
-
+        currentType:'pop',
       }
     },
     computed:{
@@ -181,12 +180,12 @@
     }
 
     .content{
-      overflow: hidden;
       position: absolute;
       top: 44px;
-      bottom: 49px;
+      bottom: 55px;
       left: 0;
       right: 0;
+      overflow: hidden;
     }
     /*.content{*/
     /*  height: calc(100% - 93px);*/

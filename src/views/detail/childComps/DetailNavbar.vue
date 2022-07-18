@@ -40,7 +40,8 @@ export default {
 <style scoped>
   .title{
     display: flex;
-    font-size: 13px;
+    font-size: 15px;
+    font-weight: 400;
   }
   .title-item{
     flex:1;

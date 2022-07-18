@@ -34,7 +34,7 @@ export default {
 
 <style scoped>
  .bottom-bar {
-    height: 49px;
+    height: 55px;
     background-color: #fff;
     position: relative;
 
@@ -62,7 +62,7 @@ export default {
     display: block;
     width: 22px;
     height: 22px;
-    margin: 6px auto 3px;
+    margin: 5px auto 1px;
     background: url("~assets/img/detail/detail_bottom.png");
     background-size: 100%;
   }
@@ -78,7 +78,7 @@ export default {
   .bar-right {
     font-size: 15px;
     color: #fff;
-    line-height: 49px;
+    line-height: 55px;
   }
 
   .bar-right .cart {

@@ -1,7 +1,7 @@
 <template>
     <div class="cart">
 <!--       导航-->
-      <nav-bar class="nav-bar">
+      <nav-bar class="cart-nav">
         <div slot="center">购物车({{cartLength}})</div>
       </nav-bar>
 
@@ -39,10 +39,8 @@ export default {
   .cart{
     height: 100vh;
   }
-
-  .nav-bar{
+  .cart-nav{
     background-color: var(--color-tint);
     color: #ffffff;
-
   }
 </style>
